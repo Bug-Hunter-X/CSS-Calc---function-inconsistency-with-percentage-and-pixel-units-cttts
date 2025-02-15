@@ -1,0 +1,7 @@
+The following CSS code snippet causes unexpected behavior in some browsers because of the use of the `calc()` function with `%` and `px` units simultaneously within a single expression.  It can lead to unexpected rendering or layout issues.
+
+```css
+.element {
+  width: calc(50% - 10px);
+}
+```
