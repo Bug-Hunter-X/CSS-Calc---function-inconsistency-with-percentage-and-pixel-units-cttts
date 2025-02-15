@@ -1,0 +1,10 @@
+The problem can be solved by using two separate CSS rules.  This approach ensures consistent layout across different browsers, separating the percentage and pixel-based width calculations. 
+
+```css
+.element {
+  width: 50%;
+  margin-left: -5px;
+  margin-right: -5px;
+  box-sizing: border-box;
+}
+```
